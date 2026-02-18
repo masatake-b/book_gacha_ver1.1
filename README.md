@@ -1,6 +1,9 @@
 ##### AIに聞くときの例
 以下をコピペして、理想の内容を言う（隠しファイルは作成しないことに注意）
 
+本ガチャアプリを作成したい。
+現状、以下の６つのファイル（index.html, gacha.html, recommendation.html, style.css, script.js, book.json）を作成したが、本ガチャが回せない。どのような原因が考えられるか
+
 ### 以下がindex.html
 <!DOCTYPE html>
 <html lang="ja">
