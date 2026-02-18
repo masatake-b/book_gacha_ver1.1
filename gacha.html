@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本ガチャ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>本ガチャ</h1>
+        <div class="gacha-controls">
+            <div class="select-group">
+                <label for="genre">ジャンル:</label>
+                <select id="genre">
+                    <option value="novel">小説</option>
+                    <option value="biz">教養</option>
+                    <option value="prac">実用</option>
+                </select>
+            </div>
+            <div class="select-group">
+                <label for="sub-genre">サブジャンル:</label>
+                <select id="sub-genre">
+                    <!-- JavaScriptで動的に生成 -->
+                </select>
+            </div>
+            <button id="gacha-btn" class="btn">本ガチャを回す</button>
+        </div>
+        <div id="result-area" class="result-area" style="display:none;">
+            <h2>おすすめの本はこちら！</h2>
+            <div id="book-result">
+                <p><strong>書名:</strong> <span id="book-title"></span></p>
+                <p><strong>おすすめコメント:</strong> <span id="book-comment"></span></p>
+                <p><strong>紹介者:</strong> <span id="book-recommender"></span></p>
+            </div>
+            <div class="result-actions">
+                <button id="retry-btn" class="btn">もう一度回す？</button>
+                <a id="buy-link" href="#" target="_blank" class="btn btn-buy">購入する？</a>
+            </div>
+        </div>
+         <a href="index.html">トップに戻る</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+{
+  "novel": {
+    "mystery-suspense": [
+      {
+        "title": "そして誰もいなくなった",
+        "comment": "クローズド・サークルの傑作！最後まで犯人が分からない。",
+        "recommender": "アガサ・クリスティファン",
+        "url": "https://www.amazon.co.jp/dp/B00O42L94K"
+      }
+    ],
+    "love": [],
+    "sf-fantasy": [
+       {
+        "title": "アルジャーノンに花束を",
+        "comment": "涙なしには読めない感動の物語。",
+        "recommender": "SF好き",
+        "url": "https://www.amazon.co.jp/dp/B00ZR47E7C"
+      }
+    ],
+    "history-period": [],
+    "horror": []
+  },
+  "biz": {
+    "thought-philosophy": [
+        {
+            "title": "夜と霧",
+            "comment": "人間の尊厳について深く考えさせられる一冊。",
+            "recommender": "読書家A",
+            "url": "https://www.amazon.co.jp/dp/B009DS3B0Q"
+        }
+    ],
+    "business": [],
+    "art-design": [],
+    "self-help": []
+  },
+  "prac": {
+    "parenting": [],
+    "cooking": [],
+    "health": []
+  }
+}

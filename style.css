@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0056b3;
+}
+
+.mode-selection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.btn-buy {
+    background: #28a745;
+}
+
+.btn-buy:hover {
+    background: #1e7e34;
+}
+
+/* ガチャページ & 投稿ページ */
+.gacha-controls, #recommend-form {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.select-group, .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select, input[type="text"], input[type="url"], textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.result-area, #confirm-area, #done-area {
+    margin-top: 30px;
+    padding: 20px;
+    background: #e9ecef;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#book-result p {
+    text-align: left;
+}
+
+.result-actions {
+    margin-top: 20px;
+}
+
+#confirm-details {
+    text-align: left;
+    margin-bottom: 20px;
+}

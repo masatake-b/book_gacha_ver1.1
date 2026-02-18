@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>おすすめ本の投稿</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>おすすめ本の投稿</h1>
+        <form id="recommend-form">
+            <div class="form-group">
+                <label for="title">本のタイトル:</label>
+                <input type="text" id="title" required>
+            </div>
+             <div class="form-group">
+                <label for="rec-genre">ジャンル:</label>
+                <select id="rec-genre">
+                    <option value="novel">小説</option>
+                    <option value="biz">教養</option>
+                    <option value="prac">実用</option>
+                </select>
+            </div>
+             <div class="form-group">
+                <label for="rec-sub-genre">サブジャンル:</label>
+                <select id="rec-sub-genre">
+                    <!-- JavaScriptで動的に生成 -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="comment">おすすめ理由:</label>
+                <textarea id="comment" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="recommender">SNSアカウント名（任意）:</label>
+                <input type="text" id="recommender">
+            </div>
+             <div class="form-group">
+                <label for="url">購入リンク:</label>
+                <input type="url" id="url" required>
+            </div>
+            <button type="submit" class="btn">投稿内容を確認する</button>
+        </form>
+        <div id="confirm-area" style="display:none;">
+            <h2>投稿内容の確認</h2>
+            <div id="confirm-details"></div>
+            <button id="submit-btn" class="btn">送信する</button>
+            <button id="back-btn" class="btn">修正する</button>
+        </div>
+        <div id="done-area" style="display:none;">
+            <p>投稿が完了し、ガチャに追加されました！</p>
+            <a href="index.html" class="btn">トップに戻る</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
