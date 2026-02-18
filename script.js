@@ -128,7 +128,7 @@ function initRecommendPage() {
             <p><strong>ジャンル:</strong> ${subGenres[formData.genre].name} - ${subGenres[formData.genre][formData.subGenre]}</p>
             <p><strong>おすすめ理由:</strong> ${formData.comment}</p>
             <p><strong>SNSアカウント名:</strong> ${formData.recommender || '(入力なし)'}</p>
-            <p><strong>購入リンク:</strong> ${formData.url}</p>
+            <p><strong>購入リンク:</strong> ${formData.url || '(入力なし)'}</p>
         `;
 
         form.style.display = 'none';
@@ -166,4 +166,5 @@ function initRecommendPage() {
         confirmArea.style.display = 'none';
         document.getElementById('done-area').style.display = 'block';
     });
+
 }
